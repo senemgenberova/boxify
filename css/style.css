@@ -1,0 +1,304 @@
+html,body{
+	margin: 0;
+	font-family: Abel , sans-serif;
+}
+
+.inner{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.flt_left{
+	float: left
+}
+
+.flt_rgt{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+.item{
+	margin-left: 5px;
+}
+.btn{
+	padding: 20px 45px;
+	color: white;
+	background: none;
+	border: 2px solid white;
+	margin-right: 5px;
+	font-size: 17px;
+}
+
+.hdr_title .btn.active{
+	color: #73d0da;
+	background: white 
+}
+
+.hdr_title .btn.active:hover{
+	color: white;
+	background: #73d0da;
+}
+
+.btn:hover{
+	color: #73d0da;
+	border: 2px solid #73d0da;
+}
+.header{
+	color: white;
+	background-image: url('../img/hero.jpg');
+	background-size: cover;
+	padding-bottom:200px;
+}
+
+.header .logo{
+	margin-top: 55px;
+}
+
+.header .menu p{
+	padding-top: 50px;
+	font-size: 13px;
+}
+
+.header .menu i{
+	margin-top: 55px;
+	font-size: 40px;
+	margin-left: 13px;
+}
+
+.hdr_title{
+	padding-top: 110px; 
+	font-size: 55px;
+}
+
+.watch{
+	text-align: center;
+	color: #323a45;
+	font-size: 20px;
+	padding: 50px 0; 
+}
+
+.watch i{
+	font-size: 45px;
+	margin-right: 10px;
+}
+
+.watch p:hover{
+	color: #73d0da
+}
+
+.ftr .ftr_img{
+	background-image: url('../img/features-intro.jpg');
+	background-size: cover;
+	height: 400px;
+	width: 50%;
+}
+
+.ftr_img img{
+	display: block;
+    margin: 160px auto;
+}
+
+.ftr .ftr_txt{
+	width: 50%; 
+	color: white;
+	background: #3f6184;
+	height: 400px;
+}
+
+.ftr .ftr_txt .tech_txt{
+	margin: 70px 100px;
+}
+
+.ftr .ftr_txt .tech_txt p{
+	font-size: small;
+	text-align: justify;
+}
+.ftr .ftr_txt .tech_txt small{
+	color: #73d0da;
+	margin-bottom: 30px;
+}
+
+.three_cir{
+	margin-top: 60px;
+}
+
+.circle{
+	margin-right: 10px;
+	width: 9px;
+	height:9px;
+	border: 2px solid white;
+	border-radius: 50%
+}
+
+.circle.active{
+	background: white
+}
+
+.reasons{
+	padding: 120px 0;
+}
+
+.reason{
+	width: 33%;
+}
+.rsn_icon{
+	width: 30%;
+	text-align: center;
+	margin-top: 22px;
+}
+
+.rsn_icon i{
+	color:#4e9ba3;
+	border: 2px solid #4e9ba3;
+	border-radius: 100%;
+	padding: 25px;
+	font-size: 25px; 
+}
+
+.reason .rsn_text{
+	width: 70%;
+}
+
+.reason .rsn_text p{
+	color:#24374b;
+	font-size: 20px;
+}
+
+.reason .rsn_text small{
+	color: #778899;
+	width: 100px;
+}
+
+.rsn_text .read p{
+	color: #323a45;
+	font-size: 15px;
+}
+
+.rsn_text .read p:hover{
+	color: #73d0da;
+}
+
+.product{
+	height: 100%;
+	background-image: url('../img/showcase-bg-fixed.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.prd_content{
+	padding: 45px 0 ;
+	color: white
+} 
+
+.product .iphone img{
+	width: 247px;
+	height: 445px;
+	padding-left: 50px;
+}
+
+
+.prd_content .service{
+	width: 50%
+}
+
+.prd_content .service p{
+	font-size: 25px;
+}
+
+.service .peter {
+	margin-top: 40px; 
+}
+ .service .peter .img_ptr{
+	width: 5%
+}
+
+ .service .peter .txt_ptr{
+	width: 85%;
+}
+
+.service .codrops{
+	margin: 30px 0 30px 90px ;
+}
+
+.clr{
+	margin-left: 137px;
+}
+
+.power{
+	padding: 120px 15px;
+	background: #f6f7f9 
+}
+
+.power p{
+	color: #24374b;
+	font-size: 25px;
+	font-weight: bold
+}
+
+.power  small{
+	color: #778899;
+}
+
+.power .screen{
+	margin-top: 25px;
+}
+
+.screen small{
+	color:#73d0da;
+}
+
+.gallery .pic{
+	width: 23.5%;
+	height: 255px;
+}
+
+.seen{
+	padding: 120px 0;
+	background: #3f6184;
+	color: white;
+	text-align: center;
+}
+
+.seen h1{
+	font-size: 45px;
+}
+
+.footer{
+	padding: 110px 0; 
+}
+
+.footer .boxify{
+	width: 40%;
+}
+
+.footer .about{
+	width: 60%
+}
+
+.footer .about ul{
+	list-style: none;
+	color: #3f6184;
+}
+
+.footer .about ul li{
+	float: left;
+	margin-right: 90px
+}
+
+.footer .about ul li:hover{
+	color:#73d0da;
+}
+
+.footer p{
+	color: #778899;
+	font-size: 13px;
+}
+
+.footer p a{
+	font-size: 13px;
+	color:#73d0da; 
+	text-decoration: none;
+}
