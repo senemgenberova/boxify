@@ -302,11 +302,11 @@ body {
     float: left;
     margin-right: 75px;
     font-size: 14px;
+    transition-duration: 0.5s;
 }
 
 .footer .about ul li:hover {
     color: #73d0da;
-    transition-duration: 0.5s;
 }
 
 .footer p {
