@@ -76,7 +76,9 @@ body {
     padding-top: 110px;
     font-size: 55px;
 }
-
+.watch p{
+    transition-duration: 0.5s;
+}
 .watch {
     text-align: center;
     color: #323a45;
@@ -91,7 +93,6 @@ body {
 
 .watch p:hover {
     color: #73d0da;
-    transition-duration: 0.5s;
 }
 
 .ftr .ftr_img {
