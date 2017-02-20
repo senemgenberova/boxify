@@ -183,11 +183,11 @@ body {
 .rsn_text .read p {
     color: #323a45;
     font-size: 15px;
+    transition-duration: 0.5s;
 }
 
 .rsn_text .read p:hover {
     color: #73d0da;
-    transition-duration: 0.5s;
 }
 
 .product {
