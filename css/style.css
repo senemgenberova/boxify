@@ -215,6 +215,7 @@ body {
 	bottom: 17%;
 	right: 53px;
 }
+
 .prd_content .service {
     width: 50%
 }
@@ -242,8 +243,7 @@ body {
 .clr {
     margin-left: 137px;
     position: absolute;
-   opacity: 1;
-}
+  }
 
 .power {
     padding: 120px 15px;
@@ -328,3 +328,5 @@ body {
     color: #73d0da;
     text-decoration: none;
 }
+
+
